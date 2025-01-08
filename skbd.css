@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+h2 {
+    color: #ff69b4; /* Hot pink color */
+    margin-top: 20px;
+}
+.intro-div {
+    margin-bottom: 100px; /* Add space between the two sections */
+}
+
+.home-div {
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Hot pink */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1493; /* Darker pink */
+}
+
+.content-div {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message-div {
+    margin: 20px 0;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    font-family: cursive;
+    border-color: rgb(0, 17, 255);
+}
+.birthday-song-div {
+    margin: 20px 0;
+    font-family: cursive;
+    background-color: #ff69b4;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ff69b4; /* Hot pink color */
+}
+
+#birthday-span {
+    font-weight: bold;
+    color: #e91e63; /* Vibrant pink */
+}
+
+#fortu-span {
+    font-style: italic;
+    color: #ff4500;
+}
+
+.fa-video {
+    color: #ff4500; /* Orange-red icon color */
+    transition: transform 0.2s ease;
+}
+
+.fa-video:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .body-one {
+        background: url('home.jpg') center center;
+        background-size: cover; /* Ensure the image covers the entire screen */
+        height: auto; /* Allow scrolling for small screens */
+        margin-top: 200px;
+        color: navajowhite;
+    }
+    .body-two {
+        background: url('content.jpg') no-repeat center center;
+        background-size: cover; /* Ensure the image covers the entire screen */
+        height: auto; /* Allow scrolling for small screens */
+        margin-top: 200px;
+    }
+    .mobile {
+        background: url('faves.jpg') no-repeat center center;
+        background-size: cover; /* Ensure the image covers the entire screen */
+        height: auto; /* Allow scrolling for small screens */
+        margin-top: 200px;
+    }
+
+    h1, h2 {
+        color: navajowhite;
+    }
+
+    button:hover {
+        background-color: navajowhite; /* Darker pink */
+        color: black;
+    }
+
+    .intro-div {
+        margin-bottom: 50px; /* Reduce spacing for smaller screens */
+    }
+
+    .home-div,
+    .content-div {
+        max-width: 90%; /* Use 90% of screen width */
+        padding: 5px; /* Reduce padding */
+        background-color: rgb(67, 11, 11);
+    }
+
+    button {
+        background-color: black;
+        font-size: 14px; /* Reduce button font size */
+        padding: 8px 15px; /* Adjust button padding */
+        color: navajowhite;
+    }
+
+    h2, h1 {
+        font-size: 20px; /* Reduce heading sizes */
+    }
+
+    h4, h5 {
+        color: navajowhite;
+    }
+
+    .final-div {
+        background-color: transparent;
+        border: navajowhite solid;
+        color: navajowhite;
+        max-width: 350px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-family: cursive;
+    }
+
+    .message-div, .birthday-song-div {
+        background-color: transparent;
+        font-size: 12px; /* Reduce font size for readability */
+        border: navajowhite solid;
+        color: navajowhite;
+    }
+
+    #fortu-span {
+        font-style: italic;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .fa-video {
+        font-size: 2em; /* Reduce icon size */
+        color: #000000;
+    }
+
+    .fa-video:hover {
+        color: navajowhite; /* Orange-red */
+    }
+    
+}
