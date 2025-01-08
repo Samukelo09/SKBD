@@ -59,7 +59,6 @@ button:hover {
 }
 .birthday-song-div {
     margin: 20px 0;
-    font-family: cursive;
     background-color: #ff69b4;
     border-radius: 10px;
 }
@@ -97,13 +96,13 @@ h1 {
         color: navajowhite;
     }
     .body-two {
-        background: url('content.jpg') no-repeat center center;
+        background: url('content.jpg') center center;
         background-size: cover; /* Ensure the image covers the entire screen */
         height: auto; /* Allow scrolling for small screens */
         margin-top: 200px;
     }
     .mobile {
-        background: url('faves.jpg') no-repeat center center;
+        background: url('faves.jpg') center center;
         background-size: cover; /* Ensure the image covers the entire screen */
         height: auto; /* Allow scrolling for small screens */
         margin-top: 200px;
